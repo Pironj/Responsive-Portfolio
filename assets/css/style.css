@@ -1,0 +1,468 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: url("../images/cork-wallet.png");
+}
+
+body {
+    margin: auto;
+    border-color: #dddddd;
+    height: 100%;
+    overflow: auto;
+}
+
+/* HEADER & NAV BAR STYLING BEGIN */
+/* the grandparent div */
+.main-header {
+    width: auto;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    height: 80px;
+    border-bottom-width: 2px;
+    /* padding-left: 249.6px; */
+    /* padding-right: 239.6px; */
+}
+/* parent div centered */
+.centered-nav-bar {
+    position: relative;
+    width: 960px;
+    height: 80px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* child div for name */
+.header {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    size: 18px;
+    background: #4aaaa5;
+    color: white;
+}
+/* child 2 - title name */
+.name {
+    margin: auto;
+    padding-top: 20px;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+}
+
+.nav-blocks {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777
+    
+}
+
+.nav-blocks:hover {
+    background-color: #4aaaa5;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    color: white;
+}
+/* unordered list to house the nav bar links */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* HEADER & NAV BAR STYLE END!! */
+
+/* About page style begin */
+
+#about {
+    display: block;
+    overflow: auto;
+    color: #4aaaa5;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    width: 898px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+}
+
+/* pushing sticky footer to bottom of page  */
+.push-footer {
+    height: 100%;
+    overflow: auto;
+}
+/* Body title styling for all pages */
+
+.section-title {
+    margin-top: 0;
+    padding-bottom:  20px;
+    font-size: 32px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+/* Body title styling for all pages end!! */
+
+p {
+    color: #777777;
+    line-height: 1.8;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+/* picture of my face for about me section */
+#Julian-headshot {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+/* About style end!! */
+
+/* Footer style begin */
+
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #cccccc;
+    background: #666666;
+    clear: both;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px;
+    height: 50px;
+}
+/* footer text div */
+h2 {
+    margin: 0;
+    font-size: 10px;
+    padding-top: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+/* Footer style end!! */
+
+/* Portfolio page style begin */
+
+#portfolio {
+    position: relative;
+    height: 800px;
+    clear: left;
+    color: #4aaaa5;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 5%;
+    width: 898px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+}
+/* separate absolute positioned blocks to house the portfolio images */
+#block1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #cccccc;
+}
+
+#block2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 260px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #cccccc;
+}
+
+#block3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 349.56px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #cccccc;
+}
+
+#block4 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 349.56px;
+    left: 260px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #cccccc;
+}
+
+#block5 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 582.56px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #cccccc;
+
+}
+/* formatting for text divs within images */
+.center {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    top: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* fade portfolio image blocks on hover */
+#block1:hover {
+    opacity: 0.5;
+}
+#block2:hover {
+    opacity: 0.5;
+}
+#block3:hover {
+    opacity: 0.5;
+}
+#block4:hover {
+    opacity: 0.5;
+}
+#block5:hover {
+    opacity: 0.5;
+}
+
+/* !!Portfolio page style end!! */
+
+/* Contact page style begin */
+
+#contact {
+    position: relative;
+    clear: left;
+    color: #4aaaa5;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 5%;
+    width: 898px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    overflow: auto;
+}
+/* begin form submission styling for contact */
+form {
+    position: relative;
+    box-sizing: border-box;
+}
+/* name, email & message sizing */
+.input-data {
+    box-sizing: border-box;
+    width: 100%;
+    height: 20px;
+    padding: 0px;
+}
+/* formatting for message in contact */
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+/* labels for entry fields in contact section */
+label {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+/* submit button styling on contact page */
+.submit {
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Contact page style end!! */
+
+/* Media Queries */
+
+@media screen and (max-width: 980px) {
+.centered-nav-bar {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+}
+#about {
+    width: 55%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+#portfolio {
+    width: 55%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+#contact {
+    width: 55%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+}
+@media screen and (max-width: 768px) {
+html {
+    width: 768px;
+}
+    .centered-nav-bar {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: auto;
+}
+#about {
+    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#portfolio {
+    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#contact {
+    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+}
+@media screen and (max-width: 640px) {
+html {
+    width: 640px;
+}
+    /* remove margins */
+.centered-nav-bar {
+    margin: auto;
+    height: 100%;
+}
+.main-header {
+    height: 115.2px;
+    background-color: initial;
+}
+.header {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+.name {
+    padding-bottom: 20px;
+    background-color: #4aaaa5;
+}
+nav {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    margin: initial;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.push-footer {
+    width: auto;
+}
+#about {
+    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#portfolio {
+    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+    overflow: auto;
+}
+#contact {
+    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#block1 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 550px;
+    height: 350px;
+    position: relative;;
+    background: url(http://lorempixel.com/550/350/animals/8) left top no-repeat;
+}
+#block2 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 550px;
+    height: 350px;
+    position: relative;
+    left: initial;
+    background: url(http://lorempixel.com/550/350/technics/2) left top no-repeat;
+}
+#block3 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 550px;
+    height: 350px;
+    position: relative;
+    top: initial;
+    background: url(http://lorempixel.com/550/350/nature/3) left top no-repeat;
+}
+#block4 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 550px;
+    height: 350px;
+    position: relative;
+    left: initial;
+    top: initial;
+    background: url(http://lorempixel.com/550/350/city/4) left top no-repeat;
+}
+#block5 {
+    text-align: center;
+    margin: auto;
+    width: 550px;
+    height: 350px;
+    position: relative;
+    top: initial;
+    background: url(http://lorempixel.com/550/350/technics/4) left top no-repeat;
+}
+/* hide old 200x200 distored image when screen resizes */
+.portfolio-img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+}
